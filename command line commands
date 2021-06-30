@@ -1,0 +1,24 @@
+pwd = list what directory im in
+cd = change directory, include path. defaults to home
+cd .. = move up a directory
+-v tag= prints results to command line
+ls = list the files in my current directory
+ls /usr/local = list files in a Different directory
+ls -a = tag; -a tag means list all files including default hidden ones
+ls -lh tag= list of files With relevant information eg file size, date modified
+ls -S =tag that sorts files by size
+ls -lt =tag that sorts by time.
+you can combine tags! eg ls -lht
+ls -lr= tag that sorts by Reverse size
+ln a.txt b.txt= example of a hard link command.files from hard links are constant duplicates.
+rm a.txt= example of using rm to delete files.
+ln-s = symbolic link tag also for directorys(folders)
+mkdir foo = create directory called foo
+mkdir -p a/b/c = tag that creates subdirectorys 
+mkdir -v a = tag that prints results of mkdir, makes folder a.
+cp a.txt b.txt = copys a file and location example. can copy multiples at once, but then last argument Must be a directory.
+cp -v tag= prints results to line
+cp -R foo bar= copys directory contents to a Second Directory, needs -R.
+cp -f= tag that forces denied permission/users if possible.
+cp -i =consent tag.
+rm = deletes files
